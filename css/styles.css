@@ -16,7 +16,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.7;
-	color: #666666;
+	color: #414141;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	background: #fff;
@@ -725,6 +725,12 @@ a.arrow-link:hover {
 img, video, iframe, embed, object {
 	max-width: 100%;
 	height: auto;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
 /*  
     -------------------------------------------------*/
