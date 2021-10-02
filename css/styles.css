@@ -368,8 +368,9 @@ h2, .h2 {
 	/* background: url('../images/dots.png'); */
 	background-repeat: repeat;
 	height: 700px;
-	background: rgba(224, 73, 222, 0.13);
+	background: rgba(255, 0, 157, 0.102);
 }
+  
 /* wtMenu
 ----------------------------------------------*/
 #mainNav {
@@ -439,17 +440,17 @@ h2, .h2 {
 	font-size: 84px !important;
     font-family: 'Pacifico', cursive;
     color:#000;
-    text-shadow: 2px 2px #fff;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     padding: 30px 0;
 }
 #home .heading h2 {
 	color: #000;
-	text-shadow: 2px 2px #fff;
+	text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     font-family: 'Pacifico', cursive;
 	font-size: 34px !important;
 }
 #home .heading h3 {
-	text-shadow: 2px 2px #fff;
+	text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 	color: #000; 
 	font-size: 24px !important;
 	font-weight: bold;
@@ -549,7 +550,6 @@ h2, .h2 {
 	font-size: 43px !important;
 }
 #section-strapline {
-	background: #f00bfff;
 	line-height: 42px;
 	clear: both;
 }
@@ -973,6 +973,7 @@ footer {
 }
 #home .heading h2 {
 	font-size: 44px !important;
+
 }
 #home .heading strong {
 	font-size: 19px;
@@ -1017,7 +1018,6 @@ font-size: 43px !important;
 	font-size: 34px !important;
 }
 #home .heading h3 {
-color: #000;
 font-size: 20px !important;
 font-weight: bold;
 line-height: 28px;
