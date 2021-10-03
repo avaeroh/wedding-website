@@ -736,6 +736,7 @@ iframe {
 	height: 1800px;
 }
 
+
 form {
 	width: 100%;
 	height: 100%;
@@ -776,6 +777,25 @@ form {
 	color: #F049B2;
 	background: #a7ffe7;
 }
+
+#gifts {
+	background: #FFFFFF;
+	padding-bottom: 25px;
+	overflow: hidden;
+	color: #000;
+	background: #c2ffef;
+}
+
+#gifts p {
+	background: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	overflow: hidden;
+	color: #000;
+	background: #c2ffef;
+	text-align: center;
+}
+
 #aboutUs p{
 color: #212C29;
 }
