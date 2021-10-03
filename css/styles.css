@@ -617,7 +617,7 @@ h2, .h2 {
 }
 /***************************************/
 #counter {
-background: rgba(224, 73, 222, 0.13);
+background: rgba(255, 0, 157, 0.102);
 padding: 15px 0;
 }
 .page-section h1 {
@@ -670,7 +670,7 @@ a.arrow-link:hover {
 	color: #fff;
 }
 .colord {
-	background: #73e9c9;
+	background: #a7ffe7;
 }
 .colord p {
 	color: #000;
@@ -729,6 +729,14 @@ img, video, iframe, embed, object {
 
 iframe {
 	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	border: 0;
+	height: 1800px;
+}
+
+form {
+	width: 100%;
 	height: 100%;
 	border: 0;
 }
@@ -765,6 +773,7 @@ iframe {
 	padding-bottom: 25px;
 	overflow: hidden;
 	color: #F049B2;
+	background: #a7ffe7;
 }
 #aboutUs p{
 color: #212C29;
@@ -827,9 +836,11 @@ color: #212C29;
 	font-size: 4.5em;
 	top: 36px;
 }
+
 #contactUs {
-/*background: #FFD500;*/;
+background: #FFD500;
 }
+
 #contactUs .btn {
 	border-radius: 0px !important;
 	border: 0px !important;
@@ -885,8 +896,9 @@ hr {
 }
 body {
 	margin: 0;
-	font-family: Arial, sans-serif;
+	font-family: Arial, sans-serif;	
 }
+
 #navigation {
 	position: fixed;
 	top: 0;
@@ -1009,7 +1021,7 @@ footer {
 
 @media (max-width: 480px) {
 .banner-container {
-	/* height: 355px; */
+	height: 355px;
 }
 #home .heading h1{
 font-size: 43px !important;
