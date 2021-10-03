@@ -7,7 +7,7 @@ Theme by: WebThemez.com
 Note: donate to remove backlink form the site
 */
 $( function() {
-        var endDate = "August  18, 2022 16:00:00";
+        var endDate = "August  18, 2022 15:30:00";
 
         $('.countdown.simple').countdown({ date: endDate });
 
@@ -100,7 +100,8 @@ $('document').ready(function () {
 	 $.backstretch([
       "images/img1.jpg"
     , "images/img2.jpg"
-  ], {duration: 3000, fade: 1250});
+    , "images/img3.jpg"
+  ], {duration: 5000, fade: 1250});
   
     customScripts.init();
 	$('#events .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
