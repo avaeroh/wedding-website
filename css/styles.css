@@ -40,6 +40,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6, #home .heading strong {
 	font-family: 'Raleway', sans-serif;
+	color:black;
 }
 .fitImage {
 	max-width: 100%;
@@ -733,7 +734,7 @@ a.arrow-link:hover {
 	padding-bottom: 30px;
 }
 img, video, iframe, embed, object {
-	max-width: 100%;
+	max-width: 75%;
 	height: auto;
 }
 
@@ -821,10 +822,19 @@ form {
 	padding-bottom: 25px;
 	overflow: hidden;
 	color: #F049B2;
+	background: #a7ffe7;
+}
+
+@media only screen and (max-width: 1000px) {
+	#aboutUs {
+		padding-block-end: 100px;
+		
+	}
 }
 
 #aboutUs .main-background {
 	background: #a7ffe7;
+	padding-block-start: 10px;
 }
 
 #aboutUs .alt-background {
