@@ -791,7 +791,7 @@ form {
 }
 #aboutUs {
 	background: #FFFFFF;
-	padding-top: 35px;
+	/* padding-top: 35px */
 	padding-bottom: 25px;
 	overflow: hidden;
 	color: #F049B2;
