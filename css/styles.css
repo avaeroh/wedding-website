@@ -801,7 +801,7 @@ form {
 
 @media only screen and (max-width: 1000px) {
 	#rsvp {
-		padding-block-end: 300px;
+		padding-block-end: 100px;
 	}
 }
 
