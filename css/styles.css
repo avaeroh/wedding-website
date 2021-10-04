@@ -789,14 +789,6 @@ form {
 	max-width: 250px;
 	margin: auto auto 80px;
 }
-#aboutUs {
-	background: #FFFFFF;
-	padding-top: 35px;
-	padding-bottom: 25px;
-	overflow: hidden;
-	color: #F049B2;
-	background: #a7ffe7;
-}
 
 
 @media only screen and (max-width: 1000px) {
@@ -824,9 +816,26 @@ form {
 	text-align: center;
 }
 
+#aboutUs {
+	padding-top: 35px;
+	padding-bottom: 25px;
+	overflow: hidden;
+	color: #F049B2;
+}
+
+#aboutUs .main-background {
+	background: #a7ffe7;
+}
+
+#aboutUs .alt-background {
+	background: #c2ffef;
+	padding-block-start: 10px;
+}
+
 #aboutUs p{
 color: #212C29;
 }
+
 #aboutUs .feature {
 	margin-top: 30px;
 	margin-bottom: 54px;
@@ -855,6 +864,12 @@ color: #212C29;
 #aboutUs .right {
 	float: right;
 }
+
+
+
+
+
+
 .row .six {
 	width: 50%;
 }
