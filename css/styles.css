@@ -798,6 +798,14 @@ form {
 	background: #a7ffe7;
 }
 
+
+@media only screen and (max-width: 1000px) {
+	#rsvp {
+		padding-block-end: 300px;
+	}
+}
+
+
 #gifts {
 	background: #FFFFFF;
 	padding-bottom: 25px;
